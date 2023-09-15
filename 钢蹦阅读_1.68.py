@@ -1,7 +1,7 @@
 """
 钢蹦阅读_V1.68   
 
-入口 微信打开：http://2664933.zmripmoebua0.hxm4x06mgx8vh.cloud/?p=2664933  (链接可能被劫持，请多试几次)
+入口 微信打开：http://x861.ym11.cn/8b  (链接可能被劫持，请多试几次)
 
 建议将链接添加至微信收藏，方便进入查看
 
@@ -61,7 +61,7 @@ def process_account(account, i):
     sign_str = f'key=4fck9x4dqa6linkman3ho9b1quarto49x0yp706qi5185o&time={current_time}'
     sha256_hash = hashlib.sha256(sign_str.encode())
     sign = sha256_hash.hexdigest()
-    url = "http://2664933.neavbkz.jweiyshi.r0ffky3twj.cloud/share"
+    url = "http://2477726.neavbkz.jweiyshi.r0ffky3twj.cloud/share"
     headers = {
         "User-Agent": "Mozilla/5.0 (Linux; Android 9; V1923A Build/PQ3B.190801.06161913; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4470.114 Safari/537.36 MMWEBID/5635 MicroMessenger/8.0.40.2420(0x28002837) WeChat/arm64 Weixin Android Tablet NetType/WIFI Language/zh_CN ABI/arm64",
         "Cookie": cookie
@@ -77,7 +77,7 @@ def process_account(account, i):
         share_link = response['data']['share_link'][0]
         p_value = share_link.split('=')[1].split('&')[0]
 
-        url = "http://2664933.neavbkz.jweiyshi.r0ffky3twj.cloud/read/info"
+        url = "http://2477726.neavbkz.jweiyshi.r0ffky3twj.cloud/read/info"
 
         response = requests.get(url, headers=headers, json=data).json()
 
@@ -97,7 +97,7 @@ def process_account(account, i):
         sign_str = f'key=4fck9x4dqa6linkman3ho9b1quarto49x0yp706qi5185o&time={current_time}'
         sha256_hash = hashlib.sha256(sign_str.encode())
         sign = sha256_hash.hexdigest()
-        url = "http://2664933.9o.10r8cvn6b1.cloud/read/task"
+        url = "http://2477726.9o.10r8cvn6b1.cloud/read/task"
 
         try:
             response = requests.get(url, headers=headers, json=data, timeout=7).json()
@@ -144,7 +144,7 @@ def process_account(account, i):
                         
                         print("已将该文章推送至微信请在60s内点击链接完成阅读--60s后继续运行")
                         time.sleep(60)
-                        url = "http://2664933.9o.10r8cvn6b1.cloud/read/finish"
+                        url = "http://2477726.9o.10r8cvn6b1.cloud/read/finish"
                         headers = {
                             "User-Agent": "Mozilla/5.0 (Linux; Android 9; V1923A Build/PQ3B.190801.06161913; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4470.114 Safari/537.36 MMWEBID/5635 MicroMessenger/8.0.40.2420(0x28002837) WeChat/arm64 Weixin Android Tablet NetType/WIFI Language/zh_CN ABI/arm64",
                             "Cookie": cookie
@@ -169,7 +169,7 @@ def process_account(account, i):
                     sleep = random.randint(8, 15)
                     print(f"本次模拟阅读{sleep}秒")
                     time.sleep(sleep)
-                    url = "http://2664933.9o.10r8cvn6b1.cloud/read/finish"
+                    url = "http://2477726.9o.10r8cvn6b1.cloud/read/finish"
                     headers = {
                         "User-Agent": "Mozilla/5.0 (Linux; Android 9; V1923A Build/PQ3B.190801.06161913; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4470.114 Safari/537.36 MMWEBID/5635 MicroMessenger/8.0.40.2420(0x28002837) WeChat/arm64 Weixin Android Tablet NetType/WIFI Language/zh_CN ABI/arm64",
                         "Cookie": cookie
@@ -195,7 +195,7 @@ def process_account(account, i):
                 break
     if money_Withdrawal == 1:
         print(f"============💰开始微信提现💰============")
-        url = "http://2664933.84.8agakd6cqn.cloud/withdraw/wechat"
+        url = "http://2477726.84.8agakd6cqn.cloud/withdraw/wechat"
 
         response = requests.get(url, headers=headers, json=data).json()
         if response['code'] == 0:
