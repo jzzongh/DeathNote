@@ -9,7 +9,7 @@ cron：23 7-23/3 * * *
 
 max_concurrency = 3  # 并发线程数
 money_Withdrawal = 1  # 提现开关 1开启 0关闭
-key = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=90b67f97-2a37-4427-a966-b3e3d1f4dd95"        #key为企业微信webhook机器人后面的 key
+key = "90b67f97-2a37-4427-a966-b3e3d1f4dd95"        #key为企业微信webhook机器人后面的 key
 
 
 
