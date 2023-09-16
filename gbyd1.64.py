@@ -43,7 +43,7 @@ def process_account(account, i):
     sign_str = f'key=4fck9x4dqa6linkman3ho9b1quarto49x0yp706qi5185o&time={current_time}'
     sha256_hash = hashlib.sha256(sign_str.encode())
     sign = sha256_hash.hexdigest()
-    url = "http://2665464.xzcxdh7icz.v2fu6c388thbx.cloud/?p=2665464/share"
+    url = "http://2665464.xzcxdh7icz.v2fu6c388thbx.cloud/share"
     headers = {
         "User-Agent": "Mozilla/5.0 (Linux; Android 9; V1923A Build/PQ3B.190801.06161913; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.114 Safari/537.36 MMWEBID/5635 MicroMessenger/8.0.40.2420(0x28002837) WeChat/arm64 Weixin Android Tablet NetType/WIFI Language/zh_CN ABI/arm64",
         "Cookie": cookie
