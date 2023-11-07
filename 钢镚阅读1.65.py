@@ -7,7 +7,7 @@ export ydtoken=cookie
 cron：23 7-23/2 * * *
 """
 
-max_concurrency = 2  # 并发线程数(建议3线程)
+max_concurrency = 1  # 并发线程数(建议3线程)
 money_Withdrawal = 1  # 提现开关 1开启 0关闭
 key = "90b67f97-2a37-4427-a966-b3e3d1f4dd95"  # key为企业微信webhook机器人后面的 key
 
